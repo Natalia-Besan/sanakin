@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./fontawesome-free-6.4.2-web/css/all.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="sidebar-container">
+        <img id="logo" src="./img/sanakilogo 1.svg" alt="" />
+
+        <nav>
+          <ul>
+            <li>
+              <a href="">
+                <div class="icon-container">
+                  <i class="fa-solid fa-house"></i>
+                </div>
+                <span>Dashboard</span>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <div class="icon-container">
+                  <i class="fa-regular fa-file-lines"></i>
+                </div>
+                <span>Product</span>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <div class="icon-container">
+                  <i class="fa-regular fa-clipboard"></i>
+                </div>
+                <span>Orders</span>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <div class="icon-container">
+                  <i class="fa-solid fa-user-group"></i>
+                </div>
+                <span>Customers</span>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <div class="icon-container">
+                  <i class="fa-solid fa-comments"></i>
+                </div>
+                <span>CusChat</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="profile-container">
+          <p>Profile</p>
+          <div class="profile-wrapper">
+            <img src="./img/Ellipse 1.svg" alt="" />
+            <div>
+              <p>Amishka</p>
+              <p id="shopper">Shopper</p>
+            </div>
+          </div>
+          <button><i class="fa-solid fa-right-from-bracket"></i>Log out</button>
+        </div>
+      </div>
+      <header class="header-container">
+        <p>Dashboard</p>
+        <p>12th January of 2023, 12:00 pm</p>
+      </header>
+      <section class="order-status-container child1">
+        <div class="order-status">
+          <p class="number">240</p>
+          <p class="text">Total Products</p>
+        </div>
+        <div class="img"><i class="fa-solid fa-box"></i></div>
+      </section>
+      <section class="order-status-container child2">
+        <div class="order-status">
+          <p class="number">1200</p>
+          <p class="text">Total Sales</p>
+        </div>
+        <div class="img"><i class="fa-solid fa-hand-holding-dollar"></i></div>
+      </section>
+      <section class="order-status-container child3">
+        <div class="order-status">
+          <p class="number">240</p>
+          <p class="text">Pending Orders</p>
+        </div>
+        <div class="img"><i class="fa-solid fa-box-open"></i></div>
+      </section>
+      <section class="order-status-container child4">
+        <div class="order-status">
+          <p class="number">240</p>
+          <p class="text">On Proccess to Delivary</p>
+        </div>
+        <div class="img"><i class="fa-solid fa-truck"></i></div>
+      </section>
+
+      <section class="order-action-container child5">
+        <div class="order-action">
+          <p>Add new Product</p>
+          <p>introduce your new product to the market.</p>
+        </div>
+        <div class="img2"><i class="fa-solid fa-box"></i></div>
+      </section>
+
+      <section class="order-action-container child6">
+        <div class="order-action">
+          <p>Increase Items</p>
+          <p>increase the product ha.</p>
+        </div>
+        <div class="img2"><i class="fa-regular fa-square-plus"></i></div>
+      </section>
+      <section class="order-static-container child7">
+        <div class="elements-container">
+          <div class="paragraph">
+            <p>Stock Summery</p>
+            <div class="element1">
+              <img src="./img/yellow.svg" alt="" />
+              <p>Added Stock</p>
+            </div>
+            <div class="element2">
+              <img src="./img/beige.svg" alt="" />
+              <p>Available Stock</p>
+            </div>
+          </div>
+          <div class="round_img">
+            <img src="./img/kruq.svg" alt="" />
+            <p>100%</p>
+          </div>
+        </div>
+
+        <div class="products">
+          <h5>Low stock Products</h5>
+
+          <div>
+            <p class="black-text">Product name</p>
+            <p class="red-text">Remaining 10%</p>
+          </div>
+          <div>
+            <p class="black-text">Product name</p>
+            <p class="red-text">Remaining 25%</p>
+          </div>
+          <div>
+            <p class="black-text">Product name</p>
+            <p class="red-text">Remaining 33%</p>
+          </div>
+          <div>
+            <p class="black-text">Product name</p>
+            <p class="red-text">Remaining 35%</p>
+          </div>
+
+          <div class="scroll">
+            <div></div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
